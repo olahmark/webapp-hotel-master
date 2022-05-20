@@ -1,0 +1,34 @@
+<form [formGroup]="mform" (ngSubmit)="submit(mform)">
+
+    <div class = "title">
+         <h1 mat-dialog-title>Booking data</h1>
+    </div>
+
+    <div class = "firstName">
+    <mat-form-field>
+        <input matInput formControlName="firstName" placeholder="First name">
+      </mat-form-field>
+    </div>
+
+    <div class = "lastName">
+      <mat-form-field>
+        <input matInput formControlName="lastName" placeholder="Last name">
+      </mat-form-field>
+    </div>
+
+    <div class = "id">
+      <mat-form-field>
+        <input matInput formControlName="id" placeholder="ID of booking">
+      </mat-form-field>
+    </div>
+
+       
+    
+    <mat-dialog-actions>     
+        <button mat-raised-button class = "buttondelete" color="primary" type="submit">Delete</button>
+    
+        <button mat-raised-button class = "buttoncancel" color="primary" type="button" mat-dialog-close>Cancel</button>
+    </mat-dialog-actions>
+    
+
+  </form>

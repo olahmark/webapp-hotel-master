@@ -1,0 +1,48 @@
+mat-form-field.mat-form-field {
+    font-size: 22px;
+  }
+  
+  .title
+  {
+   font-size: 28px;
+   position : relative;
+   margin-top: 10px;
+   margin-left: 70px;
+  }
+  
+  .lastName
+  {
+   position : relative;
+   margin-top: 20px;
+   margin-left: 40px;
+  }
+  
+  .firstName
+  {
+   position : relative;
+   margin-top: 50px;
+   margin-left: 40px;
+  }
+  
+  .id
+  {
+   position : relative;
+   margin-top: 20px;
+   margin-left: 40px;
+  }
+    
+  .buttondelete {
+    position : relative;
+    margin-top: 25px;
+    margin-left: 40px;
+    font-size: 22px;
+    width: 150px;
+  }
+  
+  .buttoncancel {
+    position : relative;
+    margin-top: 25px;
+    margin-left: 120px;  
+    font-size: 22px;
+    min-width: 150px
+  }

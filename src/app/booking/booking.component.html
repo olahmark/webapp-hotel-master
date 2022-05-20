@@ -1,0 +1,54 @@
+
+  <form [formGroup]="form" (ngSubmit)="submit(form)">
+
+    <div class = "title">
+         <h1 mat-dialog-title>Booking data</h1>
+    </div>
+
+    <div class = "firstName">
+    <mat-form-field>
+        <input matInput formControlName="firstName" placeholder="First name">
+      </mat-form-field>
+    </div>
+
+    <div class = "lastName">
+      <mat-form-field>
+        <input matInput formControlName="lastName" placeholder="Last name">
+      </mat-form-field>
+    </div>
+
+    <div class = "email">
+      <mat-form-field>
+        <input matInput formControlName="email" placeholder="E-mail">
+      </mat-form-field>
+    </div>
+
+    <div class = "phone">
+      <mat-form-field>
+        <input matInput formControlName="phone" placeholder="Phone">
+      </mat-form-field>
+    </div>
+
+    <div class = "adress">
+      <mat-form-field>
+        <input matInput formControlName="adress" placeholder="Address">
+      </mat-form-field>
+    </div>
+
+    <div class = "inOutDate">
+      <mat-form-field hintLabel="YYYY/MM/DD-YYYY/MM/DD">
+        <input matInput formControlName="inOutDate" placeholder="Date of check in/out">
+      </mat-form-field>
+    </div>
+
+   
+    <mat-dialog-actions>
+     
+        <button mat-raised-button class = "buttonbook" color="primary" type="submit">Book</button>
+    
+        <button mat-raised-button class = "buttoncancel" color="primary" type="button" mat-dialog-close>Cancel</button>
+    
+    </mat-dialog-actions>
+    
+
+  </form>
